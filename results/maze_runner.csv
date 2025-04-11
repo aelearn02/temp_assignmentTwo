@@ -1,0 +1,4 @@
+total_time,num_moves,backtrack_count,width,height,type,algorithm,date
+0.039201,127,0,50,50,static,astar,2025-04-11 12:54:15.016954
+0.001635,1279,0,50,50,static,right-hand,2025-04-11 12:54:32.846603
+0.001682,137,0,50,50,static,dfs,2025-04-11 12:54:53.904095
