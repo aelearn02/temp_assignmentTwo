@@ -28,7 +28,6 @@ Your answer should demonstrate a clear understanding of:
         <li>If the robot cannot go straight as well, it will go right</li>
         <li>If none of the other options are available, aka if the robot has been stuck in the same place for the last three moves, the robot will "backtrack".</li>
     </ul>
-
 </p>
 
 ### Question 2 (30 points)
@@ -125,7 +124,7 @@ Your answer should include:
 <p style="color:#005A9C; font-weight:600">
     I ran the algorithm on the original right-hand rule, and then with the newly implemented DFS and A* algorithm
 </p>
-    ![Comparison of Performance of Three Algorithms](./results/images/algorithm_performance.png)
+![Comparison of Performance of Three Algorithms](./results/images/algorithm_performance.png)
 <p style="color:#005A9C; font-weight:600">
     A* Algorithm performed the best with solving the maze in 127 moves, followed by DFS, and last the right-hand rule.
 </p>
