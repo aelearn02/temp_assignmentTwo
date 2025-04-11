@@ -114,7 +114,7 @@ Your answer should include:
     Uniformed Search Algorithms are one which doesn’t have any additional information about the problem other than the problem definition and the solution intended. The uninformed search is also known as the blind search as it only knows about its current state and all states which are reachable from that state. 
         <ul style="color:#005A9C; font-weight:600">
             <li>Right-Hand Rule - This algorithm follows walls without knowing where the exit is</li>
-            <li> Depth First Search(DFS) - Uses a Stack, Does not explores a point full, prefers exploration over exploitation.</li>
+            <li> Depth First Search(DFS) - Uses a Stack, Does not explores a point fully, prefers exploration over exploitation.</li>
         </ul>
     Informed Search Algorithm uses a heuristic function to be more biased towards the goal. I used A* algorithm with cost function  (both euclidean and manhattan distance). Results will be presented in the next section.
 </p>
