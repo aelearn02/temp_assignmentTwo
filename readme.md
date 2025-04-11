@@ -76,7 +76,10 @@ Analyze and compare the performance of different maze explorers on the static ma
     Because we are using a deterministic algorithm (right-hand-rule) that does the same thing every and the maze is static, we are getting same results from each worker.
 
 </p>
-![Analysis of Static Runs](./results/images/static_runs.png)
+
+<p>
+    <img src = "./results/images/static_runs.png" alt = "Analysis of Static Runs" >
+</p>
 
 ### Question 4 (20 points)
 Based on your analysis from Question 3, propose and implement enhancements to the maze explorer to overcome its limitations. Your solution should:
@@ -124,7 +127,9 @@ Your answer should include:
 <p style="color:#005A9C; font-weight:600">
     I ran the algorithm on the original right-hand rule, and then with the newly implemented DFS and A* algorithm
 </p>
-![Comparison of Performance of Three Algorithms](./results/images/algorithm_performance.png)
+<p>
+    <img src = "./results/images/algorithm_performance.png" alt = "Comparison of Performance of Three Algorithmss" >
+</p>
 <p style="color:#005A9C; font-weight:600">
     A* Algorithm performed the best with solving the maze in 127 moves, followed by DFS, and last the right-hand rule.
 </p>
