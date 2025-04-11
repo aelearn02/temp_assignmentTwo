@@ -20,6 +20,8 @@ Your answer should demonstrate a clear understanding of:
 - The backtracking strategy
 - The performance metrics collected
 
+  *** Answer ***
+
 <p style="color:#005A9C; font-weight:600">
     The Algorithm Used by the explorer is the right-hand rule. How it works is as follows: 
     <ul style="color:#005A9C; font-weight:600">
@@ -50,6 +52,7 @@ Modify the main program to run multiple maze explorers simultaneously. This is b
 3. Implement task distribution
 4. Create a results comparison system
 
+  *** Answer ***
 <p style="color:#005A9C; font-weight:600">
     The components used for Parallelization is as follows:
     <ul style="color:#005A9C; font-weight:600">
@@ -72,6 +75,7 @@ Analyze and compare the performance of different maze explorers on the static ma
 
 3. What do you notice regarding the performance of the explorers? Explain the results and the observations you made.
 
+  *** Answer ***
 <p style="color:#005A9C; font-weight:600">
     Because we are using a deterministic algorithm (right-hand-rule) that does the same thing every and the maze is static, we are getting same results from each worker.
 
@@ -96,6 +100,7 @@ Your answer should include:
 2. Documentation of your proposed improvements
 3. The modified code with clear comments explaining the changes
 
+  *** Answer ***
 <p style="color:#005A9C; font-weight:600">
     The current limitation is the algorithm implemented, which is the right-hand-rule. Although relatively simple to implement, the search space for the robot is exhastive. 
 </p>
@@ -124,6 +129,8 @@ Compare the performance of your enhanced explorer with the original:
 Your answer should include:
 1. Performance comparison results and analysis
 2. Discussion of any trade-offs or new limitations introduced
+
+  *** Answer ***
 <p style="color:#005A9C; font-weight:600">
     I ran the algorithm on the original right-hand rule, and then with the newly implemented DFS and A* algorithm
 </p>
