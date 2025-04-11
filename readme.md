@@ -137,6 +137,7 @@ Your answer should include:
 1. Solve the static maze in 150 moves or less to get 10 points.
 2. Solve the static maze in 135 moves or less to get 15 points.
 3. Solve the static maze in 130 moves or less to get 100% in your assignment.
+
 | num_moves | algorithm       |
 |-----------|-----------------|
 | 127       | astar           |
