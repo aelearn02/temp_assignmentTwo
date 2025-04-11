@@ -76,8 +76,8 @@ Analyze and compare the performance of different maze explorers on the static ma
 <p style="color:#005A9C; font-weight:600">
     Because we are using a deterministic algorithm (right-hand-rule) that does the same thing every and the maze is static, we are getting same results from each worker.
 
-    ![Analysis of Static Runs](./results/images/static_runs.png)
 </p>
+![Analysis of Static Runs](./results/images/static_runs.png)
 
 ### Question 4 (20 points)
 Based on your analysis from Question 3, propose and implement enhancements to the maze explorer to overcome its limitations. Your solution should:
